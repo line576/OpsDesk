@@ -1,0 +1,27 @@
+[package]
+name = "opsdesk"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "The Agentic DevOps Productivity Office"
+
+[features]
+default = ["agentic"]
+
+# Foundational agentic capabilities
+agentic = []
+ai-first = ["agentic"]
+multi-agent = ["ai-first"]
+
+# Advanced orchestration
+autonomous = ["multi-agent"]
+self-healing = ["autonomous"]
+meta-orchestration = ["multi-agent"]
+
+# Enterprise transformation
+enterprise = ["self-healing", "meta-orchestration"]
+executive-alignment = ["enterprise"]
+hyperagentic = ["executive-alignment"]
+
+[dependencies]
+# To be determined by the Autonomous Dependency Selection Agent.

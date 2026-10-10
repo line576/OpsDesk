@@ -1,0 +1,1 @@
+This software is following a revolutionary new source distribution method. After cloning the repository, check the README.md file and then construct the software as described using Rust 2021 in the src folder.
